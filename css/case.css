@@ -1,0 +1,52 @@
+.pc_header.white .nav li > a{color: black}
+.pc_header.white .nav li:nth-child(3) > a{color: #ff5a00}
+.pc_header.white .nav li.li_border_r > a {border-color: black}
+.pc_header.white{border-bottom: 1px #ebebeb solid;}
+
+.bg_1{width: 100%;text-align: center}
+.h-btn-div{width: 260px;height: 50px;border-radius: 40px;margin: 200px auto 30px auto;position: relative}
+.h-btn-div .btn-back-div{width: 100%;line-height: 50px;color: white;font-size: 16px}
+.h-btn-div .btn-back-div span{margin: auto 25px}
+.h-btn-div .btn-back-div .btn-l,.h-btn-div .btn-back-div .btn-r{color:#ff5d3d;width: 130px;position:absolute;top:0px;height: 48px;background-color: white;border: 1px #ff5d3d solid;border-radius: 40px}
+.h-btn-div .btn-back-div .btn-r{right: 0px;}
+.h-btn-div .btn-back-div .btn-l{left: 0px;}
+.h-btn-l .btn-l{display: block}
+.h-btn-l .btn-r{display: none}
+.h-btn-r .btn-l{display: none}
+.h-btn-r .btn-r{display: block}
+
+.bg_1 .ul-div{width: 1270px;font-size: 18px;padding: 0px;margin: auto auto}
+.bg_1 ul li>a{display:block;width: 200px;color:#aaaaab;}
+.bg_1 ul li .active{color: #ff5d3d;font-weight: 800}
+
+.class-con{margin-top: 60px}
+.class-con .bg-4-c{display: flex;margin-bottom: 15px;justify-content:space-around;}
+.class-con .bg-4m-img{width: 100%;height: 356px;overflow: hidden;}
+.class-con .bg-4-c-m{width: 633px;position: relative;font-size: 26px;}
+.class-con .bg-4m-t1,.bg-4m-t2{margin: 25px 40px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;color:#9b9b9b;font-weight: bold;}
+
+.btn-down-div{width: 116px;height: 60px;margin: 90px auto;cursor: pointer;}
+
+.m-btn-div{justify-content: space-around;margin: 205px auto 110px}
+.m-btn-div .m-btn{width: 300px;height: 90px;background-color: #ff5d3d;color: white;font-size: 29px;justify-content: center}
+.m-btn-div .m-btn .btn-img-div{height: 11px}
+
+.m-class-btn-div1,.m-class-btn-div2{width: 100%;height: 100%;z-index: 999;position: fixed;top: 0px;left: 0px;background: rgba(0,0,0,0.8)}
+
+@media (max-width: 750px) {
+    .class-con .bg-4-c{flex-direction:column;}
+    .class-con .bg-4-c-m{width: 750px}
+    .class-con .bg-4-c-m .bg-4m-img>img{width: 100%}
+    .class-con .bg-4m-t1{font-size: 36px;margin: 10px 0px;font-weight: bold}
+    .class-con .bg-4m-t2{margin-bottom: 20px}
+}
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+
+}

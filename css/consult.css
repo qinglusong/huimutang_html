@@ -1,0 +1,107 @@
+
+
+
+/*------------------------------------------*/
+
+
+.bg_01 .swiper-container{width: 100%;height: 1000px;z-index: 0;max-width: 1920px}
+.bg_01 .swiper-container .w-p{position: absolute;color: white;right: 100px;top:300px;text-align: right;display: block}
+.bg_01 .w-p .rl-e1{font-size: 45px;margin:0px}
+.bg_01 .w-p .rl-e2{font-size: 31px;}
+.bg_01 .w-p .rl-e2:nth-child(3){margin-bottom: 0px}
+.bg_01 .w-p .rl-e2:nth-child(4){margin-top: 0px}
+
+.bg_02{width: 100%;height: 260px;justify-content: center}
+.bg_02 p{color: #ff5a00;font-size: 45px}
+.bg_02 p:nth-child(2){font-weight: bold;margin: 0 20px}
+
+.bg_03,.bg_04,.bg_05,.bg_06{text-align: center}
+
+.bg_03 .b3-bg1{
+    height: 460px;width: 100%;
+    background:-webkit-linear-gradient(left,#ffa757,#fe5275);/* Safari 5.1 - 6.0 */
+    background:-o-linear-gradient(right,#fe5275,#ffa757);/* Opera 11.1 - 12.0 */
+    background:-moz-linear-gradient(right,#ffa757,#fe5275);/* Firefox 3.6 - 15 */
+    background:linear-gradient(to right,#ffa757,#fe5275);/* 标准*/}
+
+.b3-bg1{display: flex;}
+.bg_03 .b3-con{width: 33.333%;height: 100%;color: white;}
+.bg_03 .b3-con:nth-child(2){border-left: white 1px solid;border-right: white 1px solid;
+    border-image: -webkit-linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1),rgba(255,255,255,0)) 20 60 20;}
+
+.bg_03 .b3-con .b3-con-c1{margin-top: 140px;height: 85px}
+.bg_03 .b3-con .b3-con-c2{font-size: 30px;letter-spacing: 20px}
+.bg_03 .b3-con:nth-child(2) .b3-con-c2{margin-bottom: 0px}
+.bg_03 .b3-con .b3-con-c2-1{font-size: 20px;margin-top: 0px;letter-spacing: 5px}
+.bg_03 .b3-con .b3-con-c3{font-size: 16px;letter-spacing: 20px;margin-top: 120px}
+.bg_03 .b3-con:nth-child(2) .b3-con-c3{margin-top: 90px}
+
+
+.bg_04 .bg-4-c, .bg_05 .bg-4-c{display: flex;margin-bottom: 15px;justify-content:space-around;}
+.bg_04 .bg-4m-img,.bg_05 .bg-4m-img{width: 100%;height: 356px;overflow: hidden;}
+.bg_04 .bg-4-c-m{width: 633px;position: relative;font-size: 26px;color:#a5a5a5}
+.bg_04 .bg-4m-t1,.bg-4m-t2{margin: 5px 40px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2}
+
+
+.bg_05{margin-top: 150px}
+.bg_05 .bg-4-c-m{width: 620px;height: 415px;}
+
+.bg_06{background:url(../imgs/consult-b2.jpg) no-repeat center bottom;width: 100%;height: 800px;border-top: white 1px solid}
+.bg_06 .bg6-con-div{display: flex;justify-content: space-around;}
+.bg_06 .bg6-con{width: 474px;height: 474px;background: rgba(252,122,52,0.9);color: white;font-weight: bold;line-height: 40px;text-align: left;}
+.bg_06 .bg6-con h2{font-size: 34px;margin: 50px 50px}
+.bg_06 .bg6-con >p{font-size: 16px;width: 290px;height: 125px;margin: 100px 100px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4;}
+
+.bg_07{display: flex;border-top: white 1px solid}
+.bg_07 .video-div{width: 954px;height: 500px;background-color: #f9f9f9;margin: 50px}
+.bg_07 .v-btn{text-align: center;margin-top: 190px}
+.bg_07 .bg7-txt{text-align: center;margin-left: 125px}
+.bg_07 .bg7-txt h1{font-size: 34px;font-weight: bold}
+.bg_07 .bg7-txt pre{font-size: 28px;letter-spacing: 5px;color: #303030}
+
+
+@media (max-width: 750px) {
+
+    .bg_01{height: 867px}
+    .bg_01 .swiper-container .w-p {right: 35px;top:90px;width: 625px}
+    .bg_01 .w-p .m-rl-e1{font-size: 52px;font-weight: bold;margin-bottom: 10px}
+    .bg_01 .w-p .rl-e2{font-size: 26px;margin: 0px}
+
+    .bg_02>p:nth-child(2){flex-direction:column;margin-top: 20px}
+
+    .bg_03 .b3-bg1{height: 250px}
+    .bg_03 .b3-con .b3-con-c1{margin-top: 30px}
+    .bg_03 .b3-con .b3-con-c2{letter-spacing: 5px}
+
+    .bg_04 .bg-4-c{flex-direction:column;}
+    .bg_04 .bg-4-c-m{width: 750px}
+    .bg_04 .bg-4-c-m .bg-4m-img>img{width: 100%}
+    .bg_04 .bg-4m-t1{font-size: 36px;margin: 10px 0px;font-weight: bold}
+    .bg_04 .bg-4m-t2{margin-bottom: 20px}
+
+    .bg_05 .bg-4-c{flex-wrap: wrap}
+    .bg_05 .bg-4-c .bg-4-c-m{width: 365px;height: 315px}
+
+    .bg_05 .bg-4m-img{height: 200px;width: 100%;overflow: hidden}
+    .bg_05 .bg-4m-t1{font-size: 24px;color: #a5a5a5;margin: 10px 0px 0px}
+    .bg_05 .bg-4m-t2{font-size: 20px;color: #a5a5a5;line-height: 25px; word-wrap: break-word;word-break: break-all;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;}
+
+    .bg_06{height: 955px;background:url(../imgs/m/consult-b2-m.jpg) no-repeat center bottom;padding: 0 20px}
+    .bg_06 .bg6-con-div{flex-wrap: wrap}
+    .bg_06 .bg6-con {width: 346px;height: 346px;margin-bottom: 10px}
+    .bg_06 .bg6-con >p{margin: -30px 50px;width: 260px;height: 210px;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:6;line-height: 35px;word-break: break-all;font-size: 22px}
+
+    .bg_07{flex-wrap: wrap}
+    .bg_07 .bg7-txt{margin: auto auto}
+
+    .m-footer-nav{display: block;height: 640px;background-color: #000000;padding: 85px 45px}
+    .m-footer-nav div:nth-child(1){margin-bottom: 80px}
+    .m-footer-nav div:nth-child(3){margin:20px 50px}
+
+    .m-footer-nav p{color: white;font-size: 20px}
+
+    #J_MobileNavBar{width: 100%;height: 100%;background: rgba(0,0,0,0.8);position: fixed;display: none}
+    #J_MobileNavBar ul{width: 100%;padding: 50px 0px 0px 0px;}
+    #J_MobileNavBar li{margin-bottom: 30px}
+    #J_MobileNavBar li >a{color: white;font-size: 25px;}
+}
